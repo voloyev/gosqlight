@@ -1,0 +1,26 @@
+mode: set
+github.com/voloyev/gosqlight/main.go:30.51,34.2 3 1
+github.com/voloyev/gosqlight/main.go:36.56,37.33 1 1
+github.com/voloyev/gosqlight/main.go:40.2,40.26 1 1
+github.com/voloyev/gosqlight/main.go:37.33,39.3 1 1
+github.com/voloyev/gosqlight/main.go:43.37,44.27 1 1
+github.com/voloyev/gosqlight/main.go:47.2,47.10 1 1
+github.com/voloyev/gosqlight/main.go:44.27,46.3 1 1
+github.com/voloyev/gosqlight/main.go:50.33,52.2 1 1
+github.com/voloyev/gosqlight/main.go:54.50,56.32 2 1
+github.com/voloyev/gosqlight/main.go:73.2,74.10 2 1
+github.com/voloyev/gosqlight/main.go:56.32,57.49 1 1
+github.com/voloyev/gosqlight/main.go:68.3,68.49 1 1
+github.com/voloyev/gosqlight/main.go:57.49,58.53 1 1
+github.com/voloyev/gosqlight/main.go:62.4,66.12 4 1
+github.com/voloyev/gosqlight/main.go:58.53,61.5 2 1
+github.com/voloyev/gosqlight/main.go:68.49,71.4 2 1
+github.com/voloyev/gosqlight/main.go:77.13,80.6 3 0
+github.com/voloyev/gosqlight/main.go:80.6,83.3 2 0
+github.com/voloyev/gosqlight/parser.go:11.47,14.2 2 1
+github.com/voloyev/gosqlight/parser.go:16.41,17.22 1 1
+github.com/voloyev/gosqlight/parser.go:22.2,22.14 1 1
+github.com/voloyev/gosqlight/parser.go:17.22,18.33 1 1
+github.com/voloyev/gosqlight/parser.go:18.33,20.4 1 1
+github.com/voloyev/gosqlight/parser.go:25.20,30.2 4 0
+github.com/voloyev/gosqlight/parser.go:32.28,35.2 2 1
