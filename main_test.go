@@ -56,3 +56,12 @@ func TestWhatShouldIdoSyntaxError(t *testing.T) {
 		t.Error("Syntax parser do not work")
 	}
 }
+
+func TestCreateTable(t *testing.T) {
+	newStorage := initStorage()
+	test := whatShouldIDo("create table name", newStorage)
+	if test != 0 {
+		t.Error("Cant create table")
+	}
+
+}

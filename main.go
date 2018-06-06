@@ -5,8 +5,8 @@ import (
 	"strings"
 )
 
-var keywords = []string{"select", "insert"}
-var subKeywords = []string{"all"}
+var keywords = []string{"select", "insert", "create"}
+var subKeywords = []string{"all", "table"}
 var syntaxError = 2
 
 // insert sometext
@@ -25,6 +25,18 @@ type Sqlight interface {
 // SqlightItems should not be unexported
 type SqlightItems struct {
 	data map[int]string
+}
+
+type SqlightDb struct {
+	table map[string]SqlightTable
+}
+
+type SqlightTable struct {
+	item []SqlightItems
+}
+
+func (s SqlightDb) createDb(name string) int {
+	s.table[name]
 }
 
 func (s SqlightItems) insertItem(item string) int {
